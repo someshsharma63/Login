@@ -1,0 +1,89 @@
+body{
+
+    margin: 0 ;
+    padding:0;
+    background: url("backg.jpg");
+    background-size: auto;
+    font-family: "sans-serif";
+    font-size: 25px;
+}
+
+.loginBox
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    padding:50px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+
+}
+h2
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color: salmon;
+    text-align: center;
+}
+.loginBox
+{
+    padding: 30px;
+    margin: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+
+.loginBox
+{
+    width:40%;
+    margin-bottom: 40px;
+}
+
+
+.loginBox input[type="text"], .loginBox input[type="password"]
+{
+    border: none;
+    border-bottom: red;
+    background: whitesmoke;
+    outline: none;
+    height: 40px;
+    color: green;
+    font-size: 16px;
+}
+
+.loginBox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: maroon;
+    font-size: 22px;
+    background: rgb(255,38,126);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+    background: darkolivegreen;
+    color: purple;
+}
+
+.loginBox a
+{
+    color:blue;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+::placeholder
+{
+
+    color: chocolate;
+
+}
+
+
